@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-export const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.gas-solution.com";
+export const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.ecofix.id";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
