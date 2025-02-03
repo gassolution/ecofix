@@ -180,7 +180,7 @@ export default function Home() {
                       className="inline-flex items-center justify-center px-4 py-2 font-medium"
                     >
                       <Link href="/service/saluranair" className="text-indigo-600 text-sm lg:text-lg" rel="canonical">
-                        Selengkapnya
+                        Selengkapnya.
                         <MoveRight className="ml-2" />
                       </Link>
                     </CardItem>
@@ -225,7 +225,7 @@ export default function Home() {
                       className="inline-flex items-center justify-center px-4 py-2 font-medium"
                     >
                       <Link href="/service/greasetrap" className="text-amber-500 text-sm lg:text-lg" rel="canonical">
-                        Selengkapnya
+                        Selengkapnya.
                         <MoveRight className="ml-2" />
                       </Link>
                     </CardItem>
@@ -270,7 +270,7 @@ export default function Home() {
                       className="inline-flex items-center justify-center px-4 py-2 font-medium"
                     >
                       <Link href="/service/ac" className="text-green-600 text-sm lg:text-lg" rel="canonical">
-                        Selengkapnya
+                        Selengkapnya.
                         <MoveRight className="ml-2" />
                       </Link>
                     </CardItem>
