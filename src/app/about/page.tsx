@@ -9,12 +9,85 @@ import { useEffect } from "react";
 // UI Libs
 
 // Font
+import { HeroParallax } from "@/components/ui/hero-parallax";
 import { Outfit } from 'next/font/google';
 import Head from "next/head";
 
 const outfit = Outfit({ subsets: ['latin'] })
 
 // Icons
+
+// Constructor
+const gallery = [
+  {
+    title: "Grease Trap",
+    link: "#",
+    thumbnail:
+      "/images/onfield-3.jpg",
+  },
+  {
+    title: "Kunjungan",
+    link: "#",
+    thumbnail:
+      "/images/onfield-2.jpg",
+  },
+  {
+    title: "Persiapan Teknisi",
+    link: "#",
+    thumbnail:
+      "/images/onfield-1.jpg",
+  },
+
+  {
+    title: "Teknisi On Field",
+    link: "#",
+    thumbnail:
+      "/images/onfield-4.jpg",
+  },
+  {
+    title: "Perawatan Grease Trap",
+    link: "#",
+    thumbnail:
+      "/images/onfield-3.jpg",
+  },
+  {
+    title: "Kunjungan SMK",
+    link: "#",
+    thumbnail:
+      "/images/onfield-2.jpg",
+  },
+
+  {
+    title: "Teknisi PT GAS",
+    link: "#",
+    thumbnail:
+      "/images/onfield-1.jpg",
+  },
+  {
+    title: "Teknisi PT GAS On Field",
+    link: "#",
+    thumbnail:
+      "/images/onfield-4.jpg",
+  },
+  {
+    title: "Grease Trap Service",
+    link: "https://tailwindmasterkit.com",
+    thumbnail:
+      "/images/onfield-3.jpg",
+  },
+  {
+    title: "Kunjungan Acara",
+    link: "https://smartbridgetech.com",
+    thumbnail:
+      "/images/onfield-2.jpg",
+  },
+  {
+    title: "Teknisi Ecofix",
+    link: "https://renderwork.studio",
+    thumbnail:
+      "/images/onfield-1.jpg",
+  },
+];
 
 export default function About() {
 
@@ -44,6 +117,10 @@ export default function About() {
             <p className="text-md sm:text-xl w-full sm:w-2/3 text-justify">
               PT Gama Abyakta Sejahtera adalah perusahaan plumbing services yang melayani hotel bintang 5, mall, perkantoran, dan klien retail di Jabodetabek. Layanan kami mencakup drain cleaning, plumbing, AC maintenance, grease trap serta perbaikan pipa atau saluran mampet. Dengan pengalaman lebih dari 20 tahun, kami memiliki teknisi terampil dan berdedikasi untuk memberikan solusi terbaik bagi kebutuhan saluran pipa dan pembuangan Anda. Pelajari lebih lanjut mengenai jasa yang kami tawarkan.
             </p>
+
+            <div className="w-full">
+              <HeroParallax products={gallery} />
+            </div>
 
             <h2 className="text-2xl sm:text-3xl md:text-5xl text-indigo-600 font-semibold mt-10">
               Visi PT GAS

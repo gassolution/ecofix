@@ -613,11 +613,11 @@ export default function Home() {
 
           <div className="w-full flex flex-col items-center justify-center gap-10">
             <h1 className={`${outfit.className} text-balance text-center text-3xl sm:text-5xl font-semibold leading-none tracking-tighter md:text-6xl`}>
-              Saluran Mampet? <br />
+              Saluran Mampet <br />
               <LineShadowText className="italic" shadowColor={"black"}>
-                GAS
+                Ecofix
               </LineShadowText>
-              -in Aja!
+              Solusinya
             </h1>
             <div className="flex flex-col justify-center items-center border-2 border-indigo-400 shadow-md bg-sky-100 p-4 sm:p-10 rounded-xl gap-6">
               <div className={`${outfit.className} flex items-center justify-center gap-4 sm:gap-10`}>
