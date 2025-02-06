@@ -96,13 +96,13 @@ export default function About() {
           </div>
 
           <div className="flex flex-col gap-4 justify-center items-center">
-            <h2 className="text-2xl sm:text-3xl md:text-5xl text-indigo-600 font-semibold mt-10">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl text-black font-semibold mt-10">
               Visi PT GAS
             </h2>
             <p className="text-md sm:text-xl w-full sm:w-2/3 text-justify">
               Menjadi perusahaan yang terbaik dibidang engineering dan berintegritas.
             </p>
-            <h2 className="text-2xl sm:text-3xl md:text-5xl text-indigo-600 font-semibold mt-10">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl text-black font-semibold mt-10">
               Misi PT GAS
             </h2>
             <div className="text-md sm:text-xl w-full sm:w-2/3 text-justify">
