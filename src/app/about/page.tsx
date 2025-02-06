@@ -89,7 +89,7 @@ export default function About() {
   return (
     <>
       <main>
-        <div className="overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 sm:p-20 rounded-xl xl:mx-20">
+        <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 sm:p-20 rounded-xl xl:mx-20`}>
 
           <div className="w-full -my-40">
             <HeroParallax products={gallery} />
