@@ -14,7 +14,7 @@ import ResponsiveNavbar from "./navbar";
 import { baseUrl } from "./sitemap";
 
 export const metadata: Metadata = {
-  metadataBase: baseUrl ? new URL(baseUrl) : undefined,
+  metadataBase: new URL(baseUrl || "https://www.ecofix.id"),
   applicationName: "Ecofix",
   title: {
     default: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
